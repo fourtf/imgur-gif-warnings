@@ -33,7 +33,7 @@ else {
                     var message = document.createElement("div")
                     message.style = "color:#FF0000"
                     message.innerText = "warning: gif"
-                    source.parentElement.parentElement.insertBefore(message, source.parentElement.parentElement.childNodes[0])
+                    gif.parentElement.insertBefore(message, gif.parentElement.childNodes[0])
 
                     return
                 }
